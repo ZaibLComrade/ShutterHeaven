@@ -7,6 +7,7 @@ const Products = ({ products }: IProps) => {
 	return <ThemedView style={ styles.container }>
 		{
 			products.map((product: IProduct) => <Card
+				key={ product._id }
 				id={ product._id }
 				name={ product.name }
 				price={ product.price }

@@ -41,11 +41,13 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
 	container: {
 		padding: 20,
+		paddingVertical: 60,
 	},
 	children: {
-		paddingBottom: 24,
+		paddingBottom: 20,
 	},
 	title: {
+		textAlign: "center",
 		margin: "auto",
 	},
 });

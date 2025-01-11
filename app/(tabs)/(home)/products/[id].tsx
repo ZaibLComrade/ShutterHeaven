@@ -6,13 +6,11 @@ import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { Image, ScrollView } from "react-native";
 import { StyleSheet } from "react-native";
-import logo from "../../../../assets/images/react-logo.png";
 
 const ProductDetails = () => {
 	const { id } = useLocalSearchParams();
 	const [product, setProduct] = useState<IProduct | null>(null);
 	const [imageLoadError, setImageLoadError] = useState<boolean>(false);
-	console.log(product);
 	const getProduct = async () => {
 		const response = await fetch(`${BASE_URL}/products/${id}`);
 		const result = await response.json();

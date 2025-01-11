@@ -34,6 +34,12 @@ export default function TabLayout() {
 					title: "Dashboard",
 				}}
 			/>
+			<Tabs.Screen
+				name="(home)/login"
+				options={{
+					title: "Login",
+				}}
+			/>
 			<Tabs.Screen 
 				name="(home)/products/[id]"
 				options={{
