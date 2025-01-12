@@ -21,7 +21,7 @@ Follow these steps to install and set up the ShutterHaven project:
 1. **Clone the Repository**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/ZaibLComrade/ShutterHeaven.git
     cd ShutterHaven
     ```
 
@@ -31,14 +31,7 @@ Follow these steps to install and set up the ShutterHaven project:
     npm install
     ```
 
-3. **Set Up Environment Variables**
-   Create a `.env` file in the root directory and configure the required variables:
-
-    ```
-    BASE_URL=<your_backend_base_url>
-    ```
-
-4. **Start the Project**
+3. **Start the Project**
 
     - To start the Metro bundler and run the project on an Android emulator or connected device:
 
@@ -51,7 +44,7 @@ Follow these steps to install and set up the ShutterHaven project:
         npm run ios
         ```
 
-5. **Run with Expo Go**
+4. **Run with Expo Go**
     - Install the Expo Go app on your mobile device.
     - Scan the QR code displayed in the terminal after running the project.
 
