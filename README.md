@@ -1,51 +1,58 @@
-# Welcome to your Expo app 👋
+# ShutterHaven
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+ShutterHaven is a cutting-edge camera e-commerce platform designed to provide users with a seamless shopping experience. Built with React Native and Expo, it offers features like user authentication, product browsing, and a responsive UI optimized for mobile devices.
 
-1. Install dependencies
+## Project Installation
 
-   ```bash
-   npm install
-   ```
+Follow these steps to install and set up the ShutterHaven project:
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
+-   Node.js (>= 16.x)
+-   npm (>= 8.x)
+-   Expo CLI
+-   Android Studio or any preferred mobile emulator
+-   A physical Android device (optional) for testing
 
-In the output, you'll find options to open the app in a
+### Steps
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. **Clone the Repository**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    ```bash
+    git clone <repository_url>
+    cd ShutterHaven
+    ```
 
-## Get a fresh project
+2. **Install Dependencies**
 
-When you're ready, run:
+    ```bash
+    npm install
+    ```
 
-```bash
-npm run reset-project
-```
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory and configure the required variables:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+    ```
+    BASE_URL=<your_backend_base_url>
+    ```
 
-## Learn more
+4. **Start the Project**
 
-To learn more about developing your project with Expo, look at the following resources:
+    - To start the Metro bundler and run the project on an Android emulator or connected device:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+        ```bash
+        npm run android
+        ```
 
-## Join the community
+    - For iOS (if applicable):
+        ```bash
+        npm run ios
+        ```
 
-Join our community of developers creating universal apps.
+5. **Run with Expo Go**
+    - Install the Expo Go app on your mobile device.
+    - Scan the QR code displayed in the terminal after running the project.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# ShutterHeaven
+You’re now ready to explore and develop ShutterHaven!
